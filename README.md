@@ -45,15 +45,19 @@ from sklearn.preprocessing import MinMaxScaler
 from sklearn.model_selection import train_test_split
 
 data = pd.read_csv("Churn_Modelling.csv")
+print("datahead")
 print(data.head())
+print("datatail")
 print(data.tail())
 
 X=data.iloc[:,:-1].values
+print("X")
 print(X)
 
 y=data.iloc[:,-1].values
+print("y")
 print(y)
-
+print("datainfo")
 data.info()
 
 print("Missing Values: \n ",data.isnull().sum())
@@ -64,6 +68,7 @@ print(data.duplicated())
 data.describe()
 
 data = data.drop(['Surname', 'Geography','Gender'], axis=1)
+
 data.head()
 
 scaler=MinMaxScaler()
@@ -82,12 +87,21 @@ print("Testing data")
 print(X_test)
 print(y_test)
 print("Length of X_test: ", len(X_test))
-
 ```
 
 
 ## OUTPUT:
-SHOW YOUR OUTPUT HERE
+
+![exp1-1](https://github.com/user-attachments/assets/436a61d1-482b-45c7-b12b-a5ad6e6f9481)
+
+![exp1-2](https://github.com/user-attachments/assets/20c1c397-895f-48e6-b130-8f9164917cc3)
+
+![exp1-3](https://github.com/user-attachments/assets/6ca30d01-a453-4785-83b8-6d9a462c45ed)
+
+![exp1-4](https://github.com/user-attachments/assets/05dfb59a-9dfe-4a7d-a1c3-20fd1b25e9db)
+
+
+![exp1-5](https://github.com/user-attachments/assets/3fa7c6c3-8647-4e2f-828e-d088274166ae)
 
 
 ## RESULT:
