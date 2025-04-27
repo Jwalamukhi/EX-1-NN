@@ -103,6 +103,21 @@ print("Length of X_test: ", len(X_test))
 
 ![exp1-5](https://github.com/user-attachments/assets/3fa7c6c3-8647-4e2f-828e-d088274166ae)
 
+![exp1-6](https://github.com/user-attachments/assets/f66ab756-6d52-4d20-bf56-ae54696adbdd)
+
+
+![exp1-7](https://github.com/user-attachments/assets/c257ca38-0d4f-41da-a043-0ae94bae9c26)
+
+![exp1-8](https://github.com/user-attachments/assets/f2d38e44-8c4b-4d37-abfc-d9056c859f93)
+
+![exp1-9](https://github.com/user-attachments/assets/be128e6d-b437-4f5b-a25f-ab7f91f90185)
+
+![exp1-10](https://github.com/user-attachments/assets/ff543849-4a2e-4fa8-be02-b4aa0bdd5ff4)
+
+
+
+
+
 
 ## RESULT:
 Thus, Implementation of Data Preprocessing is done in python  using a data set downloaded from Kaggle.
